@@ -1,18 +1,10 @@
-import { Product } from "@/lib/types";
-import data from "../../db.json";
-// import { promises as fs } from 'fs';
-// import path from 'path';
+import type { Product } from "@/lib/types";
+import data from "../../db.json" assert { type: "json" };
+
 import {
   unstable_cacheLife as cacheLife,
   unstable_cacheTag as cacheTag,
 } from "next/cache";
-
-// Helper function to read the database
-// async function readDB() {
-//   const dbPath = path.join(process.cwd(), 'db.json');
-//   const data = await fs.readFile(dbPath, 'utf8');
-//   return JSON.parse(data);
-// }
 
 const readDB = async () => {
   return Promise.resolve(data);
