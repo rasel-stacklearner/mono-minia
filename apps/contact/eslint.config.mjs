@@ -9,6 +9,11 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("@repo/eslint-config/nextjs")];
+const eslintConfig = [
+  ...compat.extends(
+    "@repo/eslint-config/next-js",
+    "@repo/eslint-config/react-internal"
+  ),
+];
 
 export default eslintConfig;
