@@ -52,7 +52,7 @@ export const Footer = () => {
                     className="text-sm hover:text-white transition-colors"
                   >
                     {link.name}
-                  </Li>
+                  </Link>
                 </li>
               ))}
             </ul>
