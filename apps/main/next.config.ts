@@ -26,9 +26,9 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: "/contact",
-        // destination: `${process.env.APP_URL!}/contact/:path*`,
-        destination: "https://mono-minia-psi.vercel.app/contact",
+        source: "/contact/:path*",
+        // destination: `http://localhost:3000/contact/:path*`,
+        destination: "https://mono-minia-psi.vercel.app/contact/:path*",
       },
     ];
   },

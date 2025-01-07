@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   transpilePackages: ["@repo/ui"],
 
   basePath: "/contact",
+  assetPrefix: "/contact",
 };
 
 export default nextConfig;
