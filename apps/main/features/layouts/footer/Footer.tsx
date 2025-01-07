@@ -47,12 +47,12 @@ export const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <Link
+                  <a
                     href={link.href}
                     className="text-sm hover:text-white transition-colors"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
