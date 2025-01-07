@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+console.log("APP_URL 😀", process.env.APP_URL);
+
 const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
