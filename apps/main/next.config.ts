@@ -26,8 +26,8 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: "/contact",
-        destination: "https://mono-minia-psi.vercel.app/contact",
+        source: "/contact/:path*",
+        destination: "https://mono-minia-psi.vercel.app/contact/:path*",
       },
     ];
   },
