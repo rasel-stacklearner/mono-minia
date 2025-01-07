@@ -10,10 +10,7 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends(
-    "@repo/eslint-config/next-js",
-    "@repo/eslint-config/react-internal"
-  ),
+  ...compat.extends("@repo/eslint-config/nextjs", "@repo/eslint-config/react"),
 ];
 
 export default eslintConfig;

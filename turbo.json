@@ -17,6 +17,11 @@
         ".cache/tsbuildinfo.json"
       ]
     },
+    "start": {
+      "dependsOn": [
+        "^start"
+      ]
+    },
     "lint": {
       "dependsOn": [
         "^lint"
