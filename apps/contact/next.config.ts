@@ -5,14 +5,6 @@ const nextConfig: NextConfig = {
   transpilePackages: ["@repo/ui"],
 
   basePath: "/contact",
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: "/",
-  //       destination: "http://localhost:3001",
-  //     },
-  //   ];
-  // },
 };
 
 export default nextConfig;

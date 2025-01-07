@@ -27,7 +27,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/contact/:path*",
-        destination: "https://mono-minia-psi.vercel.app/contact/:path*",
+        destination: `${process.env.APP_URL!}/contact/:path*`,
       },
     ];
   },
