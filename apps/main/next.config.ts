@@ -28,8 +28,8 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/contact/:path*",
-        // destination: `http://localhost:3000/contact/:path*`,
-        destination: `https://mono-minia-psi.vercel.app/:path*`,
+        destination: `http://localhost:3000/:path*`,
+        // destination: `https://mono-minia-psi.vercel.app/:path*`,
       },
     ];
   },
