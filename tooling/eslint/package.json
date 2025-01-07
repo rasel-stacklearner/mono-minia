@@ -1,8 +1,8 @@
 {
     "name": "@repo/eslint-config",
     "version": "0.0.0",
-    "type": "module",
     "private": true,
+    "main": "./index.js",
     "exports": {
         "./base": "./base.js",
         "./nextjs": "./nextjs.js",
@@ -19,6 +19,6 @@
         "eslint-plugin-turbo": "^2.3.0",
         "globals": "^15.12.0",
         "typescript": "^5.3.3",
-        "typescript-eslint": "^8.15.0"
+        "typescript-eslint": "^7.0.1"
     }
 }
