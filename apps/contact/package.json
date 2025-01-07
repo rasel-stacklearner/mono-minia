@@ -11,7 +11,8 @@
   "dependencies": {
     "react": "catalog:react19",
     "react-dom": "catalog:react19",
-    "next": "catalog:nextjs15"
+    "next": "catalog:nextjs15",
+    "@repo/ui": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",
