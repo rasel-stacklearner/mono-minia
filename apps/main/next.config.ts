@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-console.log("APP_URL 😀", process.env.APP_URL);
-
 const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
@@ -26,11 +24,12 @@ const nextConfig: NextConfig = {
   },
 
   async rewrites() {
+    console.log("APP_URL 😀", process.env.APP_URL);
     return [
       {
         source: "/contact/:path*",
         // destination: `http://localhost:3000/contact/:path*`,
-        destination: `${process.env.APP_URL}/contact/:path*`,
+        destination: `https://mono-minia.vercel.app/contact/:path*`,
       },
     ];
   },
