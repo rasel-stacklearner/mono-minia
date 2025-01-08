@@ -16,7 +16,7 @@ export default function ValuesPage() {
           </p>
           <Link
             className="mt-8 text-lg font-bold underline hover:text-gray-300"
-            href={"/"}
+            href={"/about"}
           >
             Go Back
           </Link>

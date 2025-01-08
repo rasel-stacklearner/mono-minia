@@ -18,7 +18,7 @@ export const CoreValues = () => {
             exceptional value to our clients
           </p>
           <Link
-            href="/values"
+            href="/about/values"
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
           >
             Learn More About Our Values
