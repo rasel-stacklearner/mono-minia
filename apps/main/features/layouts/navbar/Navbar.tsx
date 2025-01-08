@@ -15,18 +15,18 @@ export const Navbar = () => {
         <span className="font-bold text-lg">GoodLogin</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link
+        <a
           className="text-sm font-medium hover:text-purple-600 transition-colors"
           href="/about"
         >
           About
-        </Link>
-        <Link
+        </a>
+        <a
           className="text-sm font-medium hover:text-purple-600 transition-colors"
           href="/contact"
         >
           Contact
-        </Link>
+        </a>
       </nav>
     </header>
   );
