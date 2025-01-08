@@ -1,4 +1,5 @@
 import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 export default function ContactPage() {
   return (
@@ -24,6 +25,14 @@ export default function ContactPage() {
         </p>
       </div>
       <ContactForm />
+
+      <hr className="my-8 border-2 border-gray-200" />
+      <Link
+        className="mt-8 text-lg font-bold underline hover:text-gray-300"
+        href={"/"}
+      >
+        Home
+      </Link>
     </div>
   );
 }
