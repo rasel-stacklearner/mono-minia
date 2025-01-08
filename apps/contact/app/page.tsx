@@ -23,16 +23,13 @@ export default function ContactPage() {
         <p className="mt-2 text-lg/8 text-gray-600">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
         </p>
+
+        <Link className="text-lg font-bold underline text-black" href={"/"}>
+          Home
+        </Link>
+        <hr className="my-4 border-1 border-dotted border-gray-200" />
       </div>
       <ContactForm />
-
-      <hr className="my-8 border-2 border-gray-200" />
-      <Link
-        className="mt-8 text-lg font-bold underline hover:text-gray-300"
-        href={"/"}
-      >
-        Home
-      </Link>
     </div>
   );
 }
