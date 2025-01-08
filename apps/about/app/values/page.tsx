@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ValuesHero from "@/assets/values-hero.jpg";
 import { values } from "@/config/about/values";
+import Link from "next/link";
 
 export default function ValuesPage() {
   return (
@@ -13,6 +14,7 @@ export default function ValuesPage() {
           <p className="text-xl max-w-2xl text-center">
             The principles that guide us in everything we do
           </p>
+          <Link href={"/"}>Go Back</Link>
         </div>
       </section>
 
