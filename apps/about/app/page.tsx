@@ -1,6 +1,7 @@
 import { CoreValues } from "@/components/CoreValues";
 import Image from "next/image";
 import ManPhoto from "@/assets/man.jpg";
+import Link from "next/link";
 export default function AboutPage() {
   return (
     <main className="min-h-screen">
@@ -12,6 +13,12 @@ export default function AboutPage() {
           <p className="text-xl max-w-2xl mx-auto">
             Building the future of technology with innovation and excellence
           </p>
+          <Link
+            className="mt-8 text-lg font-bold underline hover:text-gray-300"
+            href={"/"}
+          >
+            Home
+          </Link>
         </div>
       </section>
 
