@@ -14,7 +14,12 @@ export default function ValuesPage() {
           <p className="text-xl max-w-2xl text-center">
             The principles that guide us in everything we do
           </p>
-          <Link href={"/"}>Go Back</Link>
+          <Link
+            className="mt-8 text-lg font-bold underline hover:text-gray-300"
+            href={"/"}
+          >
+            Go Back
+          </Link>
         </div>
       </section>
 
