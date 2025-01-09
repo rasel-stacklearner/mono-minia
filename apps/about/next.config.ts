@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   transpilePackages: ["@repo/ui"],
 
-  basePath: "",
+  basePath: "/about",
   assetPrefix: "/about",
 };
 
