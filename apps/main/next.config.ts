@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
+    domains: ["mono-minia-psi.vercel.app", "mono-minia-vert.vercel.app"],
   },
 
   // async rewrites() {
