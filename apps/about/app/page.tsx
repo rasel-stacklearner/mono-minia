@@ -57,7 +57,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src={ManPhoto.src}
+                src={ManPhoto}
                 alt="Our Team"
                 fill
                 className="object-cover"
